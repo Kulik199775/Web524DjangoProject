@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 import os
 
-from django.conf.global_settings import MEDIA_ROOT
 from dotenv import load_dotenv
 
 from pathlib import Path
@@ -29,7 +28,6 @@ SECRET_KEY = "django-insecure-f@zldvo1iakkkcar1!@063t_zq$@imq_i3u-a^dao13(x!zx67
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
