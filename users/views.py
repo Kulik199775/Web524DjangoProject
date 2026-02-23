@@ -39,9 +39,12 @@ def user_login_view(request):
                     return HttpResponseRedirect(reverse('dogs:index'))
                 else:
                     return HttpResponse('Аккаунт не активен!')
+
+    else:
+        form = UserLoginForm()
     context = {
         'title': 'Авторизация',
-        'form': UserLoginForm
+        'form': form
     }
     return render(request, 'users/user_login.html', context=context)
 

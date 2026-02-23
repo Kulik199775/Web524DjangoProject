@@ -17,14 +17,15 @@
                 <form method="post" enctype="multipart/form-data">
                     {% csrf_token %}
                     {{ form.as_p }}
-                    {% if user.is_authenticated %}
-                    <button type="submit" class="btn btn-success">Сохранить</button>
-                    {% else %}
-                    <button type="submit" class="btn btn-success">Регистрация</button>
-                    {% endif %}
                 </form>
             </div>
-            <div class="card-footer"></div>
+            <div class="card-footer">
+                {% if user.is_authenticated %}
+                <button type="submit" class="btn btn-success">Сохранить</button>
+                {% else %}
+                <button type="submit" class="btn btn-success">Регистрация</button>
+                {% endif %}
+            </div>
         </div>
     </div>
 </div>
