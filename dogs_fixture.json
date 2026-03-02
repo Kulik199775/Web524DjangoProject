@@ -1,0 +1,112 @@
+[
+{
+    "model": "dogs.breed",
+    "pk": 1,
+    "fields": {
+        "name": "Немецкая овчарка",
+        "description": "Хороший сторож, большая и пушистая"
+    }
+},
+{
+    "model": "dogs.breed",
+    "pk": 2,
+    "fields": {
+        "name": "Колли",
+        "description": "Красивая, снималась в кино"
+    }
+},
+{
+    "model": "dogs.breed",
+    "pk": 3,
+    "fields": {
+        "name": "Кинг Чарльз Спаниель",
+        "description": "Очень милая ленивая порода"
+    }
+},
+{
+    "model": "dogs.breed",
+    "pk": 4,
+    "fields": {
+        "name": "Чихуахуа",
+        "description": "Концентрация злобы"
+    }
+},
+{
+    "model": "dogs.breed",
+    "pk": 5,
+    "fields": {
+        "name": "Джек Рассел Терьер",
+        "description": "Активная порода, известна по фильму Маска"
+    }
+},
+{
+    "model": "dogs.dog",
+    "pk": 1,
+    "fields": {
+        "name": "Мухтар",
+        "breed": 1,
+        "photo": "dogs/nemec_ovchar_KvZFoGr.jpeg",
+        "birth_date": "2026-02-12"
+    }
+},
+{
+    "model": "dogs.dog",
+    "pk": 2,
+    "fields": {
+        "name": "Альберта",
+        "breed": 1,
+        "photo": "dogs/nemec_ovchar.jpeg",
+        "birth_date": "2025-03-06"
+    }
+},
+{
+    "model": "dogs.dog",
+    "pk": 3,
+    "fields": {
+        "name": "Майло",
+        "breed": 5,
+        "photo": "dogs/Dzhek-1.jpg",
+        "birth_date": "2024-06-06"
+    }
+},
+{
+    "model": "dogs.dog",
+    "pk": 4,
+    "fields": {
+        "name": "Лесси",
+        "breed": 2,
+        "photo": "dogs/Collie.jpg",
+        "birth_date": "2025-02-03"
+    }
+},
+{
+    "model": "dogs.dog",
+    "pk": 5,
+    "fields": {
+        "name": "Рен",
+        "breed": 4,
+        "photo": "dogs/chixuaxua.jpg",
+        "birth_date": "2023-03-03"
+    }
+},
+{
+    "model": "dogs.dog",
+    "pk": 6,
+    "fields": {
+        "name": "Пушок",
+        "breed": 3,
+        "photo": "dogs/king_spaniel.jpeg",
+        "birth_date": "2024-12-13"
+    }
+},
+{
+    "model": "dogs.dog",
+    "pk": 8,
+    "fields": {
+        "name": "Майло Маска",
+        "breed": 5,
+        "photo": "dogs/Dzhek-1_irojY7f.jpg",
+        "birth_date": null
+    }
+}
+]

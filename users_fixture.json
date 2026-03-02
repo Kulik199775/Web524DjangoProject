@@ -1,0 +1,82 @@
+[
+{
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$yIdnFZvyIcvuetTalVdE2i$78SHhh7McsX2tDQzmm1bv0BemkJOZRboyaTFuTo+49U=",
+        "last_login": "2026-02-23T11:54:48.236Z",
+        "is_superuser": true,
+        "is_staff": true,
+        "date_joined": "2026-02-12T16:28:36.850Z",
+        "email": "admin@web.top",
+        "first_name": "Admin",
+        "last_name": "Adminov",
+        "avatar": "",
+        "phone": null,
+        "telegram": null,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$D1oNqag7m2y7Dt5ik4caIl$zHwVexRlalsXVzwy4bOJ8gtigPTL++mqPpuhyyFE2a8=",
+        "last_login": "2026-02-23T10:31:12.271Z",
+        "is_superuser": false,
+        "is_staff": false,
+        "date_joined": "2026-02-23T09:34:24.926Z",
+        "email": "user1@web.top",
+        "first_name": "",
+        "last_name": "",
+        "avatar": "",
+        "phone": null,
+        "telegram": null,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$UaJcMDJ0xdMsePx7BrQtPP$w8SmLkJCgeKV7tc1ptzEPzJOtEpshxbI5pNPKdHsUPM=",
+        "last_login": "2026-02-23T12:17:22.282Z",
+        "is_superuser": false,
+        "is_staff": false,
+        "date_joined": "2026-02-23T11:55:55.182Z",
+        "email": "user2@web.top",
+        "first_name": "User2",
+        "last_name": "Userov2",
+        "avatar": "users/user_avatar.jpg",
+        "phone": "+7999999999999",
+        "telegram": "user2tg.name",
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$7cDWK5TlzZ3jHbu7b6Tgw1$H27keZovwV3UlS4iI3sNu1xlkDFdEHukJNjPEDY5rSA=",
+        "last_login": "2026-03-02T12:03:21.385Z",
+        "is_superuser": false,
+        "is_staff": false,
+        "date_joined": "2026-02-23T12:25:10.009Z",
+        "email": "user3@web.top",
+        "first_name": "User3",
+        "last_name": "Userov3",
+        "avatar": "users/user_avatar_6W8qcRB.jpg",
+        "phone": null,
+        "telegram": null,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

@@ -14,19 +14,20 @@
                 {% endif %}
             </div>
             <div class="card-body">
-                <form method="post" enctype="multipart/form-data">
+                <form method="post" enctype="multipart/form-data" id="profile-form">
                     {% csrf_token %}
                     {{ form.as_p }}
                 </form>
             </div>
             <div class="card-footer">
                 {% if user.is_authenticated %}
-                <button type="submit" class="btn btn-success">Сохранить</button>
+                <button type="submit" form="profile-form" class="btn btn-success">Сохранить</button>
                 {% else %}
-                <button type="submit" class="btn btn-success">Регистрация</button>
+                <button type="submit" form="profile-form" class="btn btn-success">Регистрация</button>
                 {% endif %}
             </div>
         </div>
     </div>
 </div>
+
 {% endblock %}
